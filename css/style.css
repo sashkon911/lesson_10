@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    font-family: Lato;
+}
+.section__container{
+    max-width: 813px;
+    margin: 0 auto;
+}
+.section__title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #1E212C;
+    padding-bottom: 110px;
+}
+.section__image{
+    max-width: 100%;
+    margin-bottom: 49px;
+}
+.section__subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 76px;
+    padding-left: 18px;
+}
+.section__quote{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    padding-left: 58px;
+    background: url(../img/icon/braces.svg) 0 0 no-repeat;
+    padding-bottom: 61px;
+}
+.section__text p{
+    line-height: 160%;
+    color: #424551;
+}
+.section__text-1{
+    margin-bottom: 61px;
+}
+.section__list li:not(:last-child){
+    padding-bottom: 4px;
+}
+.section__list li{
+    line-height: 160%;
+    color: #424551;
+    padding-left: 32px;
+    background: url(../img/icon/vector.svg) 0px 4px  no-repeat;
+}
+.section__list{
+    margin-bottom: 61px;
+}
+.section{
+    margin-bottom: 177px;
+}
